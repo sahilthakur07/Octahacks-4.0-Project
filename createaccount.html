@@ -1,0 +1,81 @@
+<html>
+<head>
+
+  <link rel="stylesheet"  type="text/css"  href="createaccount.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+ 
+</head>
+
+<body>
+
+<div id="wallpaper_img">
+
+<form class="container" id="f1" onsubmit="matchpassword()">
+	
+    <h1>Create Account</h1>
+	
+	<input type="text" placeholder="Name" class="number" required >
+    <br><br>
+	
+	<input type="email" placeholder="Email Address" class="number" required >
+    <br><br>
+	
+	<input type="number" placeholder="Phone number" class="number"  maxlength="10" required >
+    <br><br>
+	
+	<select name="residence" class="number" required>
+	  <option value="residence">Select-State of residence</option>
+	  <option value="1">Andaman and Nicobar Islands</option>
+	  <option value="2">Andhra Pradesh</option>
+	  <option value="3">Arunachal Pradesh</option>
+	  <option value="4">Assam</option>
+	  <option value="5">Bihar </option>
+	  <option value="6">Chhattisgarh</option>
+	  <option value="7">Goa</option>
+	  <option value="8">Gujarat</option>
+	  <option value="9">Haryana</option>
+	  <option value="10">Himachal Pradesh</option>
+	  <option value="11">Jammu and Kashmir</option>
+	  <option value="12">Jharkhand </option>
+	  <option value="13">Karnataka</option>
+	  <option value="14">Kerala </option>
+	  <option value="15">Madhya Pradesh </option>
+	  <option value="16">Maharashtra</option>
+	  <option value="17">Manipur </option>
+	  <option value="18">Meghalaya </option>
+	  <option value="9">Mizoram </option>
+	  <option value="20">Nagaland </option>
+	  <option value="21">Odisha</option>
+	  <option value="22">Punjab </option>
+	  <option value="23">Rajasthan</option>
+	  <option value="24">Sikkim </option>
+	  <option value="25">Tamil Nadu</option>
+	  <option value="26">Telangana </option>
+	  <option value="27">Tripura </option>
+	  <option value="28">Uttar Pradesh</option>
+	  <option value="29">Uttarakhand</option>
+	  <option value="30">West Bengal</option>
+		
+	</select>
+	<br><br>
+	
+	
+	<input type="password" placeholder="Password" class="number" id="password1" required  >
+    <br><br>
+	
+	<input type="password" placeholder="Confirm Password" class="number" id="password2" required >
+    <br><br>
+
+     <button type="submit" id="login">Submit </button>
+	 
+	 
+	  
+</form>
+</div>
+
+<script src="createaccount.js">
+</script>
+  
+     
+</body>
+</html>
