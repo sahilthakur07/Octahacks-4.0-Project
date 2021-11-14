@@ -1,0 +1,74 @@
+body
+{
+     background-color:black;
+	 color:white;
+	
+	 
+}
+
+
+.container{
+    position:absolute;
+	background-color:black;
+	border:2px solid white;
+	text-align:center;
+	width:400px;
+	margin:20px 0px 0px 32%;
+	
+}
+
+h1{
+    font-size:48px;
+	color:rgba(204, 204, 46, 1);
+	text-decoration:underline;
+	font-family:sans-serif;
+	
+}
+
+#country
+{
+    height:40px;
+	width:70px;
+}
+
+.number
+{ 
+      color:grey;
+	  height:40px;
+	  width:200px;
+	  text-align:center;
+}
+
+#login
+{
+      background-color:rgba(209, 209, 0, 1);
+	  height:40px;
+	  width:100px;
+	  color:black;
+	  margin-bottom:40px;
+	  font-size:20px;
+}
+
+#mail
+{
+     color:white;
+}
+
+.name
+{
+      color:grey;
+	  height:40px;
+	  width:200px;
+	  text-align:center;
+
+}
+
+#wallpaper_img{
+      background-image:url("media/wallpaper.jpg");
+	  background-position:center;
+      position:relative;
+	  height:100%;
+	  background-size:cover;
+	 
+}
+
